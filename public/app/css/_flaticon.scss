@@ -1,0 +1,108 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 30/06/2019 23:17
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-lock:before { content: "\f100"; }
+.flaticon-login:before { content: "\f101"; }
+.flaticon-avatar:before { content: "\f102"; }
+.flaticon-doctor:before { content: "\f103"; }
+.flaticon-stethoscope:before { content: "\f104"; }
+.flaticon-first-aid-kit:before { content: "\f105"; }
+.flaticon-clipboard:before { content: "\f106"; }
+.flaticon-medical-history:before { content: "\f107"; }
+.flaticon-dna:before { content: "\f108"; }
+.flaticon-medical-stethoscope-variant:before { content: "\f109"; }
+.flaticon-list:before { content: "\f10a"; }
+.flaticon-list-1:before { content: "\f10b"; }
+.flaticon-life:before { content: "\f10c"; }
+.flaticon-doctor-1:before { content: "\f10d"; }
+.flaticon-hospital:before { content: "\f10e"; }
+.flaticon-doctor-2:before { content: "\f10f"; }
+.flaticon-woman:before { content: "\f110"; }
+.flaticon-wheelchair:before { content: "\f111"; }
+.flaticon-healthcare-and-medical:before { content: "\f112"; }
+.flaticon-medical-instrument:before { content: "\f113"; }
+.flaticon-thread:before { content: "\f114"; }
+.flaticon-desk:before { content: "\f115"; }
+.flaticon-pole:before { content: "\f116"; }
+.flaticon-swab:before { content: "\f117"; }
+.flaticon-tent:before { content: "\f118"; }
+.flaticon-garbage:before { content: "\f119"; }
+.flaticon-delete:before { content: "\f11a"; }
+.flaticon-garbage-1:before { content: "\f11b"; }
+.flaticon-worker-loading-boxes:before { content: "\f11c"; }
+.flaticon-no-trolley:before { content: "\f11d"; }
+.flaticon-view:before { content: "\f11e"; }
+.flaticon-user:before { content: "\f11f"; }
+.flaticon-user-1:before { content: "\f120"; }
+.flaticon-house:before { content: "\f121"; }
+    
+    $font-Flaticon-lock: "\f100";
+    $font-Flaticon-login: "\f101";
+    $font-Flaticon-avatar: "\f102";
+    $font-Flaticon-doctor: "\f103";
+    $font-Flaticon-stethoscope: "\f104";
+    $font-Flaticon-first-aid-kit: "\f105";
+    $font-Flaticon-clipboard: "\f106";
+    $font-Flaticon-medical-history: "\f107";
+    $font-Flaticon-dna: "\f108";
+    $font-Flaticon-medical-stethoscope-variant: "\f109";
+    $font-Flaticon-list: "\f10a";
+    $font-Flaticon-list-1: "\f10b";
+    $font-Flaticon-life: "\f10c";
+    $font-Flaticon-doctor-1: "\f10d";
+    $font-Flaticon-hospital: "\f10e";
+    $font-Flaticon-doctor-2: "\f10f";
+    $font-Flaticon-woman: "\f110";
+    $font-Flaticon-wheelchair: "\f111";
+    $font-Flaticon-healthcare-and-medical: "\f112";
+    $font-Flaticon-medical-instrument: "\f113";
+    $font-Flaticon-thread: "\f114";
+    $font-Flaticon-desk: "\f115";
+    $font-Flaticon-pole: "\f116";
+    $font-Flaticon-swab: "\f117";
+    $font-Flaticon-tent: "\f118";
+    $font-Flaticon-garbage: "\f119";
+    $font-Flaticon-delete: "\f11a";
+    $font-Flaticon-garbage-1: "\f11b";
+    $font-Flaticon-worker-loading-boxes: "\f11c";
+    $font-Flaticon-no-trolley: "\f11d";
+    $font-Flaticon-view: "\f11e";
+    $font-Flaticon-user: "\f11f";
+    $font-Flaticon-user-1: "\f120";
+    $font-Flaticon-house: "\f121";

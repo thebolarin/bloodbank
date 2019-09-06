@@ -1,0 +1,153 @@
+body{
+    background:white;
+}
+
+table, th, td {
+    border: 1px solid rgb(131, 129, 129);
+    border-collapse: collapse;
+}
+
+table{
+    
+    width: 100%; 
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.row .aside{
+  
+    background:#245e71;
+}
+
+#app nav ul li .nav-link{
+color:white;
+}
+.btn{
+    border-radius:50px;
+    
+}
+.bt{
+    background:white;
+    border:1px solid #0ac693;
+    color: #0ac693;
+}
+
+.bt:hover{
+    background:#0ac693;
+    
+    color: white;
+}
+
+.aside ul{
+    
+   list-style:none;
+   padding-top:20px;
+}
+.aside ul li{
+    
+    margin-top:5px;
+   
+    height:40px;
+}
+.aside ul{
+    background:#245e71;
+}
+
+
+.aside ul li a .fa{
+    color:rgb(231, 225, 225);
+    font-size:2px !important;
+    margin-right:.8rem ;
+    display:inline-block;
+    font-weight:normal !important;
+   
+}
+.aside ul li a{
+    
+
+  display:block;
+  color:white;
+  text-decoration:none;
+  font-weight:600;
+  font-size:13px;
+ 
+  /*transition:all .3s ease-in-out;*/
+  line-height:normal;
+
+}
+.aside ul li a:hover{
+    text-decoration:none;
+   /*background:#0c5061;*/
+    border-left:3px solid white;
+ 
+    color:white;
+}
+
+.aside ul li a:active{
+    text-decoration:none;
+   /*background:#0c5061;*/
+    border-left:5px solid white;
+    color:white;
+}
+
+
+
+.front ul{
+    
+    list-style:none;
+    padding-top:20px;
+ }
+ .front ul li{
+     
+     margin-top:5px;
+    
+     height:40px;
+ }
+ .front ul{
+     background:#F93822ff;
+ }
+ 
+ 
+ .front ul li a .fa{
+     color:rgb(231, 225, 225);
+     font-size:2px !important;
+     margin-right:.8rem ;
+     display:inline-block;
+     font-weight:normal !important;
+    
+ }
+ .front ul li a{ 
+   display:block;
+   color:white;
+   text-decoration:none;
+   font-weight:600;
+   font-size:13px;
+   /*transition:all .3s ease-in-out;*/
+   line-height:normal;
+ 
+ }
+ .front ul li a:hover{
+     text-decoration:none;
+    /*background:#0c5061;*/
+     border-left:3px solid white;
+  
+     color:white;
+ }
+ 
+ .front ul li a:active{
+     text-decoration:none;
+    /*background:#0c5061;*/
+     border-left:5px solid white;
+     color:white;
+ }
+
+ .row .front{
+    height:600px;
+    background:#F93822ff;
+}
+
+#app nav ul li .name{
+    color:black;
+}

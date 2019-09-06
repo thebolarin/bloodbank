@@ -1,0 +1,82 @@
+body{
+    background:url(../image/doc.jpg) no-repeat center top black ;
+    background-size:cover;
+    font-family: 'poppins', sans-serif;
+}
+.form-login{
+    background:#D6e0e4;
+  
+  margin-top:100px;
+    width:400px;
+}
+
+
+.form-login-title{
+   
+    text-align:center;
+  
+}
+
+.form-login-title i {
+    width: 34px !important;
+    height: 34px !important;
+}
+
+[class^="flaticon-login"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+
+    font-size: 100px;
+    
+}
+
+
+
+.form-login-body{
+   
+    padding-left:60px;
+    padding-right:60px;
+  
+}
+.form-login-icono{
+    background:#D6e0e4;
+    color:rgb(43, 46, 49);
+    position:relative;
+    bottom:7px;
+    border-radius:0;
+    border-right:0;
+    border-left:0;
+    border-top:1px;
+}
+.form-login-input{
+    color:black;
+    border:0;
+    border-bottom:1px solid #ced4da;
+    border-radius:0;
+}
+
+.form-login-btn{
+    text-align:center;
+    padding-top:1rem;
+  
+    padding-left:3rem;
+    padding-right:3rem;
+   
+}
+.form-login-btn .btn{
+    border-radius:100px;
+    background:#0AC693;
+    color:white;
+}
+
+
+.form-login-op{
+    display:flex;
+    justify-content:center;
+    
+}
+
+.form-login-op a{
+    display:flex;
+    justify-content:center;
+    font-weight:bold;
+    color:#0C5061;
+}

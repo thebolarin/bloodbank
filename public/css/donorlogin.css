@@ -1,0 +1,26 @@
+[class^="flaticon-login"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+
+    font-size: 50px !important;
+ 
+ }
+ .flat .card-header i{
+     padding-left:150px;
+    
+ }
+
+ .flat a{
+    color:#245e71;
+}
+.flat button{
+    background:#245e71;
+    color:white;
+    border-radius:10px;
+}
+
+.flatreg button{
+    background:#245e71;
+    color:white;
+    border-radius:10px;
+}
+
+ 
