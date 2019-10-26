@@ -5,8 +5,11 @@
     @include('admin.includes.error')
 
     <div class="panel panel-default">
-        <div class="panel-heading">
-            Create a new blood group
+        <div class="panel-heading text-center">
+            <h3> Create a new blood group</h3>
+            <a href="{{route('blood')}}" class="btn xs btn-success">
+                Goto all blood groups 
+         </a>
         </div>
        
         <div class="panel-body ">

@@ -10,6 +10,7 @@
   <link rel="stylesheet" type="text/css" href=" {{asset('app/css/flaticon.css')}} ">  
   
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
+  
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -167,6 +168,7 @@
                                         {{$post1->content}}
                                     </h5>
                                           <br>
+                                          
                                 <a class="btn-large white-text" href="{{route('appointment.create')}}"> <b>Make an appointment</b> </a>
                         </div>
 

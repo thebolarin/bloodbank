@@ -209,7 +209,7 @@
                                     @foreach($eligible as $eligible)
                                         <li>
                                           <div class="collapsible-header">
-                                            <i class="material-icons">group_work</i>{{$eligible->title}}
+                                            <i class="material-icons">group_work</i> {{$eligible->title}}
                                           </div>
                                           <div class="collapsible-body">
                                           <span>{!!$eligible->content!!}</span>

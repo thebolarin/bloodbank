@@ -14,5 +14,10 @@ class MailController extends Controller
                 $message->from('odutusinmoses@gmail.com' , 'Moses');
         });*/
         Mail::send(new newMail());
+        if( count(Mail::failures()) > 0 ) {
+
+            return redirect()->back();
+
+         } 
     }
 }

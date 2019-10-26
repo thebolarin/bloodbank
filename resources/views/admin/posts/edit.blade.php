@@ -14,9 +14,11 @@
         @endif
 
     <div class="panel panel-default">
-        <div class="panel-heading">
-            Edit post : {{$post->title}}
+        <div class="panel-heading text-center">
+            <b>Edit post : {{$post->title}}</b> 
         </div>
+
+        
    
         <div class="panel-body">
         <form action="{{route('post.update' , ['id'=>$post->id])}}" method="post" enctype="multipart/form-data">

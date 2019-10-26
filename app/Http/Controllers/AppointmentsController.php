@@ -40,8 +40,10 @@ class AppointmentsController extends Controller
     public function create()
     {
         if(auth()->guard('donor')->check()){
+            
             return view('donor.appointments.create');
         }
+    
         else{
             return redirect()->route('donor.login');
         }

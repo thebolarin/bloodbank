@@ -54,7 +54,7 @@
                         @else
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle  name" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                  <img src ="{{asset(Auth::guard('donor')->user()->profile->avatar)}}" alt="" width="30px" height="30px" style="border-radius:50%;"> 
+                                  <img src ="{{asset(Auth::guard('donor')->user()->profile->avatar)}}" alt="" width="35px" height="35px" style="border-radius:20%;"> 
                                    <b>{{ Auth::guard('donor')->user()->name }}</b>  <span class="caret"></span>
                                 </a>
 
@@ -98,8 +98,8 @@
                                 <li class="">
                                     <a href="/donor/home"><i class="flaticon-house fa"></i>Dashboard</a>
                                 </li>
-                        @if(Auth::guard('donor')->user()->donor)
-                             <li class="">
+                                  @if(Auth::guard('donor')->user()->donor)
+                                  <li class="">
                                     <a href="{{route('donor.fetch')}}"><i class="flaticon-list fa"></i> My Donation records</a>
                                 </li>
                               

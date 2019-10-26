@@ -5,8 +5,8 @@
        @include('admin.includes.error')
 
     <div class="panel panel-default">
-        <div class="panel-heading">
-            Update appointment:      {{ $appointment->name }}
+        <div class="panel-heading text-center">
+           <b>Update appointment:      {{ $appointment->name }}</b> 
         </div>
    
         <div class="panel-body ">

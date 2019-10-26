@@ -7,8 +7,8 @@
        @include('admin.includes.error')
 
     <div class="panel panel-default">
-        <div class="panel-heading">
-            Update   {{ $record->name }} donation record
+        <div class="panel-heading text-center">
+          <b> Update   {{ $record->name }} donation record</b> 
         </div>
    
         <div class="panel-body ">

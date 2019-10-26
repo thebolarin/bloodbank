@@ -24,6 +24,8 @@ tr:nth-child(even) {
 #app nav ul li .nav-link{
 color:white;
 }
+
+
 .btn{
     border-radius:50px;
     
@@ -72,9 +74,10 @@ color:white;
   text-decoration:none;
   font-weight:600;
   font-size:13px;
- 
+  height:inherit;
   /*transition:all .3s ease-in-out;*/
   line-height:normal;
+  padding-top:4px;
 
 }
 .aside ul li a:hover{
@@ -85,12 +88,7 @@ color:white;
     color:white;
 }
 
-.aside ul li a:active{
-    text-decoration:none;
-   /*background:#0c5061;*/
-    border-left:5px solid white;
-    color:white;
-}
+
 
 
 
@@ -98,6 +96,7 @@ color:white;
     
     list-style:none;
     padding-top:20px;
+    background:#F93822ff;
  }
  .front ul li{
      
@@ -105,46 +104,48 @@ color:white;
     
      height:40px;
  }
- .front ul{
-     background:#F93822ff;
- }
+
  
  
  .front ul li a .fa{
-     color:rgb(231, 225, 225);
-     font-size:2px !important;
+     color:lightgrey;
+     font-size:1px !important;
      margin-right:.8rem ;
      display:inline-block;
      font-weight:normal !important;
+     padding-top:4px;
+     transition: all 0.4s ease-in-out;
     
  }
+
+
  .front ul li a{ 
    display:block;
    color:white;
    text-decoration:none;
+   height:inherit;
    font-weight:600;
    font-size:13px;
    /*transition:all .3s ease-in-out;*/
    line-height:normal;
+   padding-top:4px;
  
  }
- .front ul li a:hover{
+ .front ul li :hover{
      text-decoration:none;
-    /*background:#0c5061;*/
-     border-left:3px solid white;
-  
+    background:#ee0413;
+     /* border-left:1px solid white; */
      color:white;
+
+     
  }
  
- .front ul li a:active{
-     text-decoration:none;
-    /*background:#0c5061;*/
-     border-left:5px solid white;
-     color:white;
- }
+
+
+ 
 
  .row .front{
-    height:600px;
+    height:550px;
     background:#F93822ff;
 }
 

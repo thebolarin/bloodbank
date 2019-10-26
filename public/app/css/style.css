@@ -382,4 +382,56 @@ color:white;
   background:#007C89;
 }
 
+@media screen and (min-width: 992px) {
+  @-moz-document url-prefix() {
+    #portfolio .col-lg-4,
+    #portfolio .col-md-4 {
+      width: 33.333%;
+    }
+  }    
+}
+
+/* ==========================================================================
+media quires for mobile
+========================================================================== */
+@media (max-width: 440px) {
+  #section {
+    padding-top: 320px;
+    padding-bottom: 320px;
+    width:100%;
+  }
+  section,.landing h1 {
+    font-size: 22px;
+  }
+  section,.landing h3,h5 {
+    font-size: 12px;
+  }
+  section p{
+    font-size:15px;
+  }
+  .landing .row .col img{
+    margin-top:0px;
+    height:auto;
+    width:100%;
+   }
+   .landing .row .col{
+    height:350px;
+    margin-top:10px;
+  }
+  .landing h1 {
+    font-size: 42px;
+  }
+  .landing h5 {
+    font-size: 15px;
+  }
+  section .row-1 a{
+   
+    margin-left:80px;
+  }
+  /* .section i {
+  font-size:20px !important;
+  } */
+  
+}
+
 

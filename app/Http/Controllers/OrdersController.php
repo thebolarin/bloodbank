@@ -70,9 +70,15 @@ class OrdersController extends Controller
 
           
 
-       // Session::flash('success' , "You successfully placed an order,you'll receive an email soon");
-        //Mail::to($request->email)->send(new \App\Mail\Order);
-        return redirect()->back()->with('status', "You successfully placed an order,you'll receive an email soon");
+       //Session::flash('success' , "Order succesfully placed");
+       Mail::to($request->email)->send(new \App\Mail\Order);
+    //    if(Mail::failures()){
+       
+    //     return redirect()->back()->with('status', "You successfully placed an order,you'll be contacted shortly");
+    //    }
+       
+       return redirect()->back()->with('status', "You successfully placed an order,you'll be contacted shortly");
+     
        
     }
 

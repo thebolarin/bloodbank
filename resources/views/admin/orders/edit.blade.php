@@ -72,8 +72,8 @@ input[type=number]::-webkit-outer-spin-button {
        @include('admin.includes.error')
 
     <div class="panel panel-default">
-        <div class="panel-heading">
-            Update blood order:      {{ $order->name }}
+        <div class="panel-heading text-center">
+         <b> Update blood order:      {{ $order->name }}</b>  
         </div>
    
         <div class="panel-body ">

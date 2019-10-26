@@ -55,7 +55,7 @@
                         @else
                               <li class="nav-item dropdown " >
                                 <a id="navbarDropdown"  class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                   <img src ="{{asset(Auth::user()->profile->avatar)}}" alt="" width="30px" height="30px" style="border-radius:50%;"> 
+                                   <img src ="{{asset(Auth::user()->profile->avatar)}}" alt="" width="35px" height="35px" style="border-radius:20%;"> 
                                    <b> {{Auth::user()->name}}</b> <span class="caret"></span>
                                 </a>
 
@@ -179,7 +179,7 @@
 
                                 
                                 <li class="">
-                                    <a href="{{route('donation')}}"><i class="fa flaticon-thread"></i> Donation process post</a>
+                                    <a href="{{route('donation')}}"><i class="fa flaticon-thread"></i> Donation process</a>
                                 </li>
 
 

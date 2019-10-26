@@ -92,15 +92,17 @@
                             @endforeach
                         </select>
                 </div>
-    </div>
-</div>
-               
-              
 
                 <div class="form-group">
                     <label for="name"> <b>New password</b></label>
                     <input type="text" name="password"  class="form-control">
                 </div>
+    </div>
+</div>
+               
+              
+
+               
 
               
 

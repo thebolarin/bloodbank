@@ -14,8 +14,8 @@
         @endif
 
     <div class="panel panel-default">
-        <div class="panel-heading">
-            Edit post : {{$hospital->title}}
+        <div class="panel-heading text-center">
+             <b>Edit post : {{$hospital->title}}</b>     
         </div>
    
         <div class="panel-body">

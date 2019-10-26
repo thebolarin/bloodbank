@@ -261,21 +261,21 @@
                                                                     <!-- TEXT FIELD -->
                                                                     <div class="input-field">
                                                                       <input id="name" type="text"  name="name" class="form-control">
-                                                                      <label for="name">Name</label>
+                                                                      <label for="name">Patient's Name</label>
                                                                     </div>
     
                                                                     
                                                                     
                                                                     <div class="input-field">
                                                                     <input id="name" type="text"  name="hospital" class="form-control">
-                                                                    <label for="name">Hospital Name</label>
+                                                                    <label for="name">Hospital's Name</label>
                                                                     </div>
 
                                                                     
     
                                                                     <div class="input-field">
                                                                     <input id="mobile" type="text"  name="mobile" class="form-control">
-                                                                    <label for="name">Mobile</label>
+                                                                    <label for="name">Mobile No.</label>
                                                                     </div>
     
                                                                     <div class="input-field">
